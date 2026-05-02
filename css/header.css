@@ -1,0 +1,75 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(14, 14, 18, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-ghost);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.2rem 2rem;
+}
+
+header nav h1 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.14em;
+  position: relative;
+  user-select: none;
+}
+
+header nav h1::after {
+  content: '';
+  display: block;
+  margin-top: 3px;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  opacity: 0.4;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+header nav ul li a {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent-dim);
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: var(--accent);
+}
+
+header nav ul li a:hover::after {
+  width: 100%;
+}

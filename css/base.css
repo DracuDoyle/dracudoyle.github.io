@@ -1,0 +1,30 @@
+:root {
+  --bg-primary:      #0c0d14;
+  --bg-surface:      #11131e;
+  --accent:          #8ab4f8;
+  --accent-dim:      rgba(138, 180, 248, 0.50);
+  --text-primary:    #d0d8f0;
+  --text-muted:      rgba(180, 190, 220, 0.45);
+  --border-ghost:    rgba(100, 140, 220, 0.12);
+  --font-display:    'Cinzel', serif;
+  --font-body:       'Raleway', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.75;
+  min-height: 100vh;
+}
