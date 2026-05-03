@@ -6,9 +6,13 @@ main {
 
 section {
   padding: 5rem 0;
-  border-bottom: 1px solid var(--border-ghost);
+  border-bottom: 2px solid var(--border-ghost);
 }
 
 section:last-child {
   border-bottom: none;
+}
+
+section div + div {
+  margin-top: 8rem;
 }

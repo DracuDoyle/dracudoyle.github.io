@@ -5,7 +5,7 @@ header {
   background-color: var(--bg-header);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--border-ghost);
+  border-bottom: 2px solid var(--border-ghost);
 }
 
 header nav {
