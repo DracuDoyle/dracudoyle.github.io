@@ -13,6 +13,6 @@ section:last-child {
   border-bottom: none;
 }
 
-section div + div {
-  margin-top: 8rem;
+section > div + div {
+  margin-top: 3rem;
 }
