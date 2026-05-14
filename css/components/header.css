@@ -112,9 +112,6 @@ header nav ul li a:hover::after {
 
 
 
-
-
-
 @media( max-width: 768px ) {
   
   #menu-toggle {
@@ -144,16 +141,16 @@ header nav ul li a:hover::after {
     display: block;
   }
 
-  header nav #menu-toggle.open span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
+  header nav #menu-toggle.open span:nth-child( 1 ) {
+    transform: translateY( 7px ) rotate( 45deg );
   }
 
-  header nav #menu-toggle.open span:nth-child(2) {
+  header nav #menu-toggle.open span:nth-child( 2 ) {
     opacity: 0;
   }
 
-  header nav #menu-toggle.open span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
+  header nav #menu-toggle.open span:nth-child( 3 ) {
+    transform: translateY( -7px ) rotate( -45deg );
   }
 
 }
