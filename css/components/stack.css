@@ -1,8 +1,17 @@
 /* Stack Grid — categorías en una columna */
 .stack-grid {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.stack-category {
+  flex: 1 1 300px;
+  min-width: 280px;
+  border: 1px solid var(--border-ghost);
+  border-radius: 8px;
+  padding: 1.5rem;
 }
 
 /* Título de cada categoría */
