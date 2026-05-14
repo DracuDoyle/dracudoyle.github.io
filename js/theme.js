@@ -1,5 +1,5 @@
 const toggle = document.getElementById( 'theme-toggle' );
-const icon   = document.getElementById( 'theme-icon' );
+const icon = document.getElementById( 'theme-icon' );
 
 
 toggle.addEventListener( 'click', () => {
