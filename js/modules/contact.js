@@ -19,6 +19,7 @@ copyBtn.addEventListener( 'click', ( event ) => {
     event.stopPropagation();
     
     navigator.clipboard.writeText( email ).then( () => {
+
         copyBtn.textContent = '✓';
         copyBtn.classList.add( 'copied' );
     

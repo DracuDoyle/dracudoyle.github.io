@@ -1,3 +1,3 @@
-import './theme.js';
-import './navbar.js';
-import './contact.js';
+import './modules/theme.js';
+import './modules/navbar.js';
+import './modules/contact.js';
